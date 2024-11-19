@@ -25,8 +25,38 @@ Use attributes like alt, title, and semantic structures to improve usability.
 
 ## Activities
 
-Creating a Simple Webpage: Design a basic webpage that includes text, images, and links.
-Use common HTML tags like h1, p, a, img, and ul or ol.
-Structure a webpage with semantic tags such as header, footer, nav, section, and article.
-Ensure the content is well-organized for readability and SEO.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment">
+    <title>HTML5 Basics Webpage</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My HTML5 Webpage</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <article>
+        <h2>Introduction</h2>
+        <p>This is my First webpage designed using HTML5 structure.</p>
+        <img src="allan.jpg" alt=" ">
+      </article>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Allan Davis</p>
+    </footer>
+  </body>
+</html>
+
 
